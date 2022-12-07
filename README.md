@@ -7,9 +7,10 @@ geth attach .ethereum/goerli/geth.ipc
 ---------------------------------------------
 - Get the Eth balance of an account (1 pts)
 ```
-eth.getBalance('0xdDCc9d80602F8C37eD82C040BD22d19DB28ED987')
+web3.fromWei(eth.getBalance('0xdDCc9d80602F8C37eD82C040BD22d19DB28ED987'), 'ether')
 ```
-![image](https://user-images.githubusercontent.com/19230666/206241671-843b9a30-e3f8-4758-bf90-c67d19366d02.png)  
+![image](https://user-images.githubusercontent.com/19230666/206246266-90cba23b-be9e-421a-9c3b-9dcff3b725fc.png)
+
 
 
 - Get a list of the IPs of all the nodes your node is connected to (2 pts)
@@ -21,18 +22,25 @@ admin.peers.forEach(function(value){console.log(value.network.remoteAddress+"\t"
 
 - Add another node of the class as a peer (2pts)
 ```
-admin.addPeer(<valeur de l'enode remote obtenue à l'aide de admin.nodeInfo>)6
+admin.addPeer(<valeur de l'enode remote obtenue à l'aide de admin.nodeInfo>)
 ```
 
 - Get a list of all the transactions in block 8017276 (2 pts)
 ```
 eth.getBlock(8017276).transactions.forEach(function(value){console.log(value)})
 ```
+![image](https://user-images.githubusercontent.com/19230666/206248085-6f7a68a9-be98-413b-91b2-cd65d9154dca.png)
+
+
 
 - Get a list of all the transactions in your mempool (2 pts)
 ```
-txpool.content
+txpool.content // full details of each transactions
+txpool.inspect // quick summary of each transaction
 ```
+![image](https://user-images.githubusercontent.com/19230666/206250760-5a76dfef-ba5f-4eac-a8c2-e57342951789.png)
+
+
 Get a list of all the events in transaction 0x78482d3e5b5c3f4fd73df433343ab83160a90af8a0aaa25259c3117965af5d3d (2 pts)
 ```
 x
