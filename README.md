@@ -47,7 +47,7 @@ x
 ```
 - Get a list of all transactions sent to aave faucet minter (Find its address) (3 pts)
 ```
-0x1ca525Cd5Cb77DB5Fa9cBbA02A0824e283469DBe
+// aave faucet minter 0x1ca525Cd5Cb77DB5Fa9cBbA02A0824e283469DBe
 ```
 - Get a list of all addresses that claimed USDC directly on the aave minter (Find its address) (3 pts)
 ```
