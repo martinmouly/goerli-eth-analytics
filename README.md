@@ -45,6 +45,8 @@ Get a list of all the events in transaction 0x78482d3e5b5c3f4fd73df433343ab83160
 ```
 eth.getTransactionReceipt("0x78482d3e5b5c3f4fd73df433343ab83160a90af8a0aaa25259c3117965af5d3d")
 ```
+![image](https://user-images.githubusercontent.com/19230666/214075203-b4362030-af70-4a3f-91a5-85780f5048ff.png)
+
 - Get a list of all transactions sent to aave faucet minter (Find its address) (3 pts)
 ```
 x
