@@ -43,7 +43,7 @@ txpool.inspect // quick summary of each transaction
 
 Get a list of all the events in transaction 0x78482d3e5b5c3f4fd73df433343ab83160a90af8a0aaa25259c3117965af5d3d (2 pts)
 ```
-eth.getTransactionReceipt("0x38b269e2fd7d8a2d8c814749ee252d98eaabe908203315c587e46f44a8b172d4")
+eth.getTransactionReceipt("0x78482d3e5b5c3f4fd73df433343ab83160a90af8a0aaa25259c3117965af5d3d")
 ```
 - Get a list of all transactions sent to aave faucet minter (Find its address) (3 pts)
 ```
