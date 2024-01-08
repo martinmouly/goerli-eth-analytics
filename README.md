@@ -1,4 +1,4 @@
-# TD5-GethAnalytics
+# Geth Analytics
 
 Log into VM number 3 as administrateur1 and access Geth console with the following command
 ```
